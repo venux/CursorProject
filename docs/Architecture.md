@@ -26,6 +26,7 @@
   - `NotificationModule`：站内信/邮件/短信/Webhook。
   - `AuditModule`：审计日志。
 - 技术要点：OpenAPI 3 生成 SDK；全局异常/日志；配置中心；速率限制与防刷（Redis）；任务队列（BullMQ）处理异步；文件上传走直传（S3 预签名）。
+- 接口文档：Swagger/OpenAPI 位于 `/api/docs`，仅本地或测试环境启用，生产关闭。
 
 ## 4. 数据与模型
 - 集合：`users`、`tickets`、`messages`、`sessions`、`knowledge_articles`、`audit_logs`、`notifications`、`attachments`。

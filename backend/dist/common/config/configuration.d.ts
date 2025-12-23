@@ -1,4 +1,5 @@
 declare const _default: () => {
+    env: string;
     port: number;
     mongoUri: string;
     redisUri: string;
