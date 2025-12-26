@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "node dist/main.js",
+    "start": "node dist/main.js --port:3001",
     "start:dev": "nest start --watch",
     "build": "nest build",
     "lint": "eslint \"src/**/*.{ts,js}\"",
@@ -26,7 +26,8 @@
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
     "swagger-ui-express": "^5.0.1",
-    "socket.io": "^4.7.5"
+    "socket.io": "^4.7.5",
+    "axios": "^1.7.7"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.4.5",
@@ -48,4 +49,3 @@
     "node": ">=20.0.0"
   }
 }
-
